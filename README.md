@@ -5,6 +5,7 @@
 **Professor:** Prof. Dr. Hendrik Macedo  
 **Período:** 2025.2  
 **Unidade:** U4  
+**Integrantes:** José Gabriel Remigio Gama De Almeida, Lucas Feitosa Lima Sátiro, Luiz Gustavo Sampaio Sa Caldas, Ricardo Nabuco Sampaio Santana Do Couto e Vinicius Vasconi Villas Boas Micska
 
 ## Sobre o Projeto
 
@@ -24,3 +25,14 @@ O algoritmo implementado atua como um modelo de previsão de texto baseado na Es
 * `ngramas.py`: Módulo principal que contém a classe `ModeloNGrama` com a lógica matemática de MLE, funções de treinamento, pré-processamento e extração de texto de arquivos PDF. A implementação possui comentários que referenciam diretamente o pseudocódigo estudado em aula.
 * `main.py`: Script de execução que instancia o modelo, gerencia o fluxo de interação via terminal com o usuário e exibe as estatísticas de probabilidade.
 * `slides_base/`: Diretório destinado a armazenar os arquivos `.pdf` que servirão como base de dados (corpus) para o treinamento do modelo.
+
+
+## Como Instalar e Executar
+
+### 1. Pré-requisitos
+Certifique-se de que tem o **Python 3.x** instalado no seu computador. 
+O projeto utiliza a biblioteca `PyPDF2` para extrair o texto dos slides. Para instalá-la, abra o terminal e execute o seguinte comando:
+
+```bash
+pip install PyPDF2
+python main.py
