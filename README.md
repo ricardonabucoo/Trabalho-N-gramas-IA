@@ -10,6 +10,9 @@
 ## Sobre o Projeto
 
 Este repositório contém a implementação do Aplicativo 2, focado no algoritmo de N-Gramas. O objetivo do projeto é aplicar os conceitos de Processamento de Linguagem Natural (NLP) e Modelos de Linguagem Clássicos para construir um gerador de texto probabilístico treinado estritamente com o material didático da disciplina.
+**Link do APP huggingface:** <https://huggingface.co/spaces/ricardonabucoo/N-Gramas-App-U4>
+
+
 
 ### Resumo da Funcionalidade (Algoritmo N-Grama)
 
@@ -25,7 +28,7 @@ O algoritmo implementado atua como um modelo de previsão de texto baseado na Es
 * `ngramas.py`: Módulo principal que contém a classe `ModeloNGrama` com a lógica matemática de MLE, funções de treinamento, pré-processamento e extração de texto de arquivos PDF. A implementação possui comentários que referenciam diretamente o pseudocódigo estudado em aula.
 * `main.py`: Script de execução que instancia o modelo, gerencia o fluxo de interação via terminal com o usuário e exibe as estatísticas de probabilidade.
 * `slides_base/`: Diretório destinado a armazenar os arquivos `.pdf` que servirão como base de dados (corpus) para o treinamento do modelo.
-
+* `app.py` : Código fonte para a interface no Huggingface -> caso queira rodar no terminal, basta executar o main.
 
 ## Como Instalar e Executar
 
